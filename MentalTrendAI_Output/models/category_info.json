@@ -1,0 +1,15 @@
+{
+  "unique_categories": [
+    "suicide",
+    "therapy",
+    "depression",
+    "schizophrenia",
+    "bipolar",
+    "stress",
+    "ptsd",
+    "anxiety",
+    "social_support",
+    "general_mental_health"
+  ],
+  "num_categories": 10
+}

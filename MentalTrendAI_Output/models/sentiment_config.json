@@ -1,0 +1,6 @@
+{
+  "model_name": "original_labels",
+  "device": "CPU",
+  "max_length": 512,
+  "truncation": true
+}

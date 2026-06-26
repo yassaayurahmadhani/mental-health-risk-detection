@@ -1,0 +1,16 @@
+{
+  "model": "BERT Sentiment Analysis",
+  "sentiment_distribution": {
+    "Positif": 0.7174311926605504,
+    "Negatif": 0.21376146788990827,
+    "Netral": 0.06880733944954129
+  },
+  "sentiment_counts": {
+    "Positif": 782,
+    "Negatif": 233,
+    "Netral": 75
+  },
+  "average_confidence": 1.0,
+  "validation_samples": 1090,
+  "evaluation_date": "2026-01-29T10:22:44.769969"
+}

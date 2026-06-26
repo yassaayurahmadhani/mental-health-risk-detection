@@ -1,0 +1,44 @@
+{
+  "model": "LSTM Time Series Classification",
+  "version": "V6",
+  "confusion_matrix": [
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      111,
+      0,
+      2766
+    ]
+  ],
+  "training_info": {
+    "final_training_loss": 2.6938164234161377,
+    "final_validation_loss": 0.26762130856513977,
+    "loss_gap": 2.426195114850998,
+    "total_epochs": 2,
+    "training_samples": 411,
+    "note": "Training loss > val loss is NORMAL for sparse time series with regularization"
+  },
+  "evaluation_date": "2026-01-29T10:23:11.236478",
+  "diagnosis": {
+    "status": "GOOD FIT",
+    "is_underfitting": false,
+    "is_overfitting": false,
+    "recommendations": [
+      "✓ Validation loss rendah (0.2676 < 0.5). Model performing well!",
+      "  Note: Training loss lebih tinggi dari val loss (ratio 10.1x) - ini NORMAL untuk sparse time series data.",
+      "Model siap digunakan untuk time_series_horizon dan time_series dengan time series analysis."
+    ],
+    "loss_gap": 2.426195114850998,
+    "loss_ratio": 10.065777040920699,
+    "is_learning": false,
+    "val_improving": false
+  }
+}

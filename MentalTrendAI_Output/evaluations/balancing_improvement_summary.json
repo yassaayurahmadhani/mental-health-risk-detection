@@ -1,0 +1,50 @@
+{
+  "timestamp": "2026-02-01T19:42:30.306954",
+  "original_data_count": 7266,
+  "balanced_data_count": 4590,
+  "distribution_before": {
+    "Positif": 5226,
+    "Negatif": 1530,
+    "Netral": 510
+  },
+  "distribution_after": {
+    "Netral": 1530,
+    "Negatif": 1530,
+    "Positif": 1530
+  },
+  "model_metrics": {
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0
+  },
+  "confusion_matrix": [
+    [
+      229,
+      0,
+      0
+    ],
+    [
+      0,
+      230,
+      0
+    ],
+    [
+      0,
+      0,
+      230
+    ]
+  ],
+  "class_names": [
+    "Negatif",
+    "Netral",
+    "Positif"
+  ],
+  "sampling_method": "hybrid_sampling",
+  "improvements": [
+    "Back Translation capability (deep-translator)",
+    "Hybrid Sampling (under + over sampling)",
+    "Class weights in training",
+    "Improved visualization"
+  ]
+}
